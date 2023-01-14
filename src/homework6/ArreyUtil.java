@@ -48,7 +48,7 @@ public class ArreyUtil {
                 many++;
             }
         }
-        System.out.println(many + " ");
+        System.out.println(many);
     }
 
     void oddmany(int[] arrey) {
@@ -58,6 +58,6 @@ public class ArreyUtil {
                 many++;
             }
         }
-        System.out.println(many + " ");
+        System.out.println(many);
     }
 }
