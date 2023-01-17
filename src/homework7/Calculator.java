@@ -10,13 +10,16 @@ public class Calculator {
         return a - b;
     }
 
-    double divide(double a, double b){
-        if (a / b == 0) {
+    double divide(double a, double b) {
+        if ( b == 0){
+            System.out.println("թիվը 0 ի չի բաժանվում");
             return -1;
+
         }
-            return a / b;
+        return a / b;
     }
-double multply(double a, double b){
+
+    double multply(double a, double b) {
         return a * b;
-}
+    }
 }
